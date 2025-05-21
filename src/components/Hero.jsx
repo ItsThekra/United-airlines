@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-6">Book a {activeTab}</h1>
 
-        {/* Tabs */}
+    
         <div className="flex justify-center mb-6 space-x-4">
           {tabs.map((tab) => (
             <button
@@ -32,7 +32,7 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* Booking Form */}
+      
         <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input className="p-3 border rounded" placeholder="From" />
           <input className="p-3 border rounded" placeholder="To" />
